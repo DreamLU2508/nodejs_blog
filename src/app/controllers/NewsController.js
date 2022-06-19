@@ -11,7 +11,8 @@ class NewsController {
 
         // [GET] /show
     show(req, res) {
-                  res.send('day laf show');
+                  res.send(
+                    'day laf show');
             }     
   }
 
