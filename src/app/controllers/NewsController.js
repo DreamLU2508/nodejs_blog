@@ -5,15 +5,14 @@ class NewsController {
     }
 
     // [GET] /:slug
-          slug(req, res) {
+    slug(req, res) {
         res.send('ok');
     }
 
-        // [GET] /show
+    // [GET] /show
     show(req, res) {
-                  res.send(
-                    'day laf show');
-            }     
-  }
+        res.send('day laf show');
+    }
+}
 
 module.exports = new NewsController();
